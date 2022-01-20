@@ -1,0 +1,57 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="ttt.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="container text-white">
+            <div class="head">
+                
+                    <div class="row h-25">
+                            <div class="a1 col-4 text-center h-100 border rounded box" id="one" onclick="fun1()"></div>
+                            <div class="a2 col-4 text-center h-100 border rounded box" id="two" onclick="fun2()"></div>
+                            <div class="a3 col-4 text-center h-100 border rounded box" id="three" onclick="fun3()"></div>
+                    </div>
+                    <div class="row h-25">
+                            <div class="a4 col-4 text-center h-100 border rounded box" id="four" onclick="fun4()"></div>
+                            <div class="a5 col-4 text-center h-100 border rounded box" id="five" onclick="fun5()"></div>
+                            <div class="a6 col-4 text-center h-100 border rounded box" id="six" onclick="fun6()"></div>
+                    </div>
+                    <div class="row h-25">
+                            <div class="a7 col-4 text-center h-100 border rounded box" id="seven" onclick="fun7()"></div>
+                            <div class="a8 col-4 text-center h-100 border rounded box" id="eight" onclick="fun8()"></div>
+                            <div class="a9 col-4 text-center h-100 border rounded box" id="nine" onclick="fun9()"></div>
+                    </div>
+                    <div class="h-25">
+                    <div class="row">    
+                        <h3 class="mt-3 starter" id="starterid"></h3>
+                    </div>
+                    <div class="row">
+                        <h3 class="mt-3 usertext" id="whoplaytext">Start by...</h3>
+                        <div class="btn btn-block ml-5 mr-5 mt-3 user" id="whoplay" onclick="funwhoplay()">J I N</div>
+                    </div>
+                    <div class="row">
+                        <div class="btn btn-block ml-5 mr-5 mt-3 start" id="startgame" onclick="funstart()">Start</div>
+                    </div>
+                    <div class="row">
+                        <div class="btn btn-block ml-5 mr-5 mt-3 restart" id="restartgame" onclick="funrestart()">New Game</div>
+                    </div>
+                    <div class="row">
+                        <div class="btn btn-block ml-5 mr-5 mt-3 refresh" id="refreshgame" onclick="funrefresh()">Refresh</div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+
+<script src="ttt.js"></script>
+    </body>
+</html>

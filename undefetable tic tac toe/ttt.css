@@ -1,0 +1,45 @@
+.head{
+    height: 565px;
+}
+.box{
+    box-shadow: 2px 2px 6px black;
+    font-size: 90px;
+    font-family: 'Permanent Marker', cursive;
+}
+.usertext{
+    margin: auto;
+    color: rgb(128, 2, 2);
+    font-family: 'Roboto Mono', monospace;
+}
+.starter{
+    margin: auto;
+    display: none;
+    font-family: 'Roboto Mono', monospace;
+}
+.user{
+    background-color: black;
+    color: rgb(128, 2, 2);
+    box-shadow: 3px 3px 6px rgb(128, 2, 2);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+.start{
+    background-color: black;
+    color: white;
+    box-shadow: 3px 3px 6px blue;
+    font-family: 'Roboto Mono', monospace;
+}
+.restart{
+    background-color: black;
+    color: white;
+    box-shadow: 3px 3px 6px blue;
+    display: none;
+    font-family: 'Roboto Mono', monospace;
+}
+.refresh{
+    background-color: black;
+    color: white;
+    box-shadow: 3px 3px 6px yellow;
+    display: none;
+    font-family: 'Roboto Mono', monospace;
+}
